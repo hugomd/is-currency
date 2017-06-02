@@ -1,0 +1,46 @@
+{
+  "name": "is-currency",
+  "version": "1.0.0",
+  "description": "Validates whether a given input is a valid currency code, according to ISO 4217",
+  "scripts": {
+    "test": "xo && ava"
+  },
+  "ava": {
+    "verbose": true
+  },
+  "xo": {
+    "space": true,
+    "rules": {
+      "curly": 0,
+      "no-negated-condition": 0
+    }
+  },
+  "files": [
+    "index.js",
+    "currency-codes.json"
+  ],
+  "author": {
+    "name": "Hugo Muller-Downing",
+    "email": "npmjs@hugo.sx",
+    "url": "hu.md"
+  },
+  "homepage": "https://github.com/hugomd/is-currency#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hugomd/is-currency.git"
+  },
+  "keywords": [
+    "currency",
+    "code",
+    "currencies",
+    "codes"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "ava": "^0.19.1",
+    "xo": "^0.18.2"
+  },
+  "bugs": {
+    "url": "https://github.com/hugomd/is-currency/issues"
+  }
+}
