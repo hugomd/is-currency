@@ -1,5 +1,5 @@
 # 💰 is-currency
-[![XO code style](https://img.shields.io/badge/code_style-XO-5ed9c7.svg)](https://github.com/sindresorhus/xo)
+[![XO code style](https://img.shields.io/badge/code_style-XO-5ed9c7.svg)](https://github.com/sindresorhus/xo) [![Build Status](https://travis-ci.org/hugomd/is-currency.svg?branch=master)](https://travis-ci.org/hugomd/is-currency/builds)
 
 > Validates whether a given input is a valid currency code, according to ISO 4217.
 
